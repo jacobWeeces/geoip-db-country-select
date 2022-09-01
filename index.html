@@ -17,7 +17,7 @@
 <body>
     <script>
 	$.ajax({
-		url: "https://api.ipgeolocation.io/ipgeo?apiKey=7ccd7c5078c2444388e48fc0656057f8",
+		url: "https://api.ipgeolocation.io/ipgeo?apiKey=7ccd7c5078c2444388e48fc0656057f8&ip=1.1.1.1&fields=country_code2,country_name",
 		jsonpCallback: "callback",
 		dataType: "jsonp",
 		success: function( location ) {
